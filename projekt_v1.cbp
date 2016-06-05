@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projekt_v1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projekt_v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projekt_v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/baza_danych.h" />
+		<Unit filename="include/blaszane.h" />
+		<Unit filename="include/dete.h" />
+		<Unit filename="include/drewniane.h" />
+		<Unit filename="include/instrument.h" />
+		<Unit filename="include/klawiszowe.h" />
+		<Unit filename="include/membranowe.h" />
+		<Unit filename="include/okno.h" />
+		<Unit filename="include/perkusyjny.h" />
+		<Unit filename="include/samobrzmiace.h" />
+		<Unit filename="include/smyczkowy.h" />
+		<Unit filename="include/strunowy.h" />
+		<Unit filename="include/szarpane.h" />
+		<Unit filename="include/uderzane.h" />
+		<Unit filename="include/zalacznik.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/baza_danych.cpp" />
+		<Unit filename="src/blaszane.cpp" />
+		<Unit filename="src/dete.cpp" />
+		<Unit filename="src/drewniane.cpp" />
+		<Unit filename="src/instrument.cpp" />
+		<Unit filename="src/klawiszowe.cpp" />
+		<Unit filename="src/membranowe.cpp" />
+		<Unit filename="src/okno.cpp" />
+		<Unit filename="src/perkusyjny.cpp" />
+		<Unit filename="src/samobrzmiace.cpp" />
+		<Unit filename="src/smyczkowy.cpp" />
+		<Unit filename="src/strunowy.cpp" />
+		<Unit filename="src/szarpane.cpp" />
+		<Unit filename="src/uderzane.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

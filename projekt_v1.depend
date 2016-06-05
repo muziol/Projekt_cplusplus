@@ -1,0 +1,275 @@
+# depslib dependency file v1.0
+1464802083 source:c:\users\rafal\desktop\projekt_v1\src\blaszane.cpp
+	"blaszane.h"
+	<iostream>
+	<fstream>
+
+1464741708 c:\users\rafal\desktop\projekt_v1\include\blaszane.h
+	"dete.h"
+
+1464740126 c:\users\rafal\desktop\projekt_v1\include\dete.h
+	"instrument.h"
+
+1464706140 c:\users\rafal\desktop\projekt_v1\include\instrument.h
+	<string>
+
+1464740081 source:c:\users\rafal\desktop\projekt_v1\src\dete.cpp
+	"dete.h"
+
+1464774567 source:c:\users\rafal\desktop\projekt_v1\src\drewniane.cpp
+	"drewniane.h"
+	<iostream>
+	<fstream>
+
+1464741610 c:\users\rafal\desktop\projekt_v1\include\drewniane.h
+	"dete.h"
+	<string>
+
+1464705666 source:c:\users\rafal\desktop\projekt_v1\src\instrument.cpp
+	"instrument.h"
+
+1464774572 source:c:\users\rafal\desktop\projekt_v1\src\klawiszowe.cpp
+	"klawiszowe.h"
+	<iostream>
+	<fstream>
+
+1464741816 c:\users\rafal\desktop\projekt_v1\include\klawiszowe.h
+	"dete.h"
+
+1464774577 source:c:\users\rafal\desktop\projekt_v1\src\membranowe.cpp
+	"membranowe.h"
+	<iostream>
+	<fstream>
+
+1464741970 c:\users\rafal\desktop\projekt_v1\include\membranowe.h
+	"perkusyjny.h"
+	<string>
+
+1464740193 c:\users\rafal\desktop\projekt_v1\include\perkusyjny.h
+	"instrument.h"
+
+1464740166 source:c:\users\rafal\desktop\projekt_v1\src\perkusyjny.cpp
+	"perkusyjny.h"
+
+1464774581 source:c:\users\rafal\desktop\projekt_v1\src\samobrzmiace.cpp
+	"samobrzmiace.h"
+	<iostream>
+	<fstream>
+
+1464741885 c:\users\rafal\desktop\projekt_v1\include\samobrzmiace.h
+	"perkusyjny.h"
+	<string>
+
+1464774586 source:c:\users\rafal\desktop\projekt_v1\src\smyczkowy.cpp
+	"smyczkowy.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1464709205 c:\users\rafal\desktop\projekt_v1\include\smyczkowy.h
+	"strunowy.h"
+	<string>
+
+1464739929 c:\users\rafal\desktop\projekt_v1\include\strunowy.h
+	"instrument.h"
+
+1464739966 source:c:\users\rafal\desktop\projekt_v1\src\strunowy.cpp
+	"strunowy.h"
+
+1464774589 source:c:\users\rafal\desktop\projekt_v1\src\szarpane.cpp
+	"szarpane.h"
+	<iostream>
+	<fstream>
+
+1464741440 c:\users\rafal\desktop\projekt_v1\include\szarpane.h
+	"strunowy.h"
+	<string>
+
+1464774593 source:c:\users\rafal\desktop\projekt_v1\src\uderzane.cpp
+	"uderzane.h"
+	<iostream>
+	<fstream>
+
+1464741532 c:\users\rafal\desktop\projekt_v1\include\uderzane.h
+	"strunowy.h"
+	<string>
+
+1464739212 source:c:\users\rafal\desktop\projekt_v1\main.cpp
+	"baza_danych.h"
+
+1464705977 c:\users\rafal\desktop\projekt_v1\zalacznik.h
+	"instrument.h"
+	"blaszane.h"
+	"dete.h"
+	"drewniane.h"
+	"klawiszowe.h"
+	"membranowe.h"
+	"perkusyjny.h"
+	"samobrzmiace.h"
+	"smyczkowy.h"
+	"strunowy.h"
+	"szarpane.h"
+	"uderzane.h"
+
+1464729421 c:\users\rafal\desktop\projekt_v1\include\zalacznik.h
+	"instrument.h"
+	"blaszane.h"
+	"dete.h"
+	"drewniane.h"
+	"klawiszowe.h"
+	"membranowe.h"
+	"perkusyjny.h"
+	"samobrzmiace.h"
+	"smyczkowy.h"
+	"strunowy.h"
+	"szarpane.h"
+	"uderzane.h"
+	"baza_danych.h"
+	"okno.h"
+
+1464728238 c:\users\rafal\desktop\projekt_v1\include\baza_danych.h
+	<iostream>
+	<vector>
+	<zalacznik.h>
+
+1464830078 source:c:\users\rafal\desktop\projekt_v1\src\baza_danych.cpp
+	<zalacznik.h>
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	<sstream>
+
+1464829739 source:c:\users\rafal\desktop\projekt_v1\src\okno.cpp
+	"okno.h"
+	<iostream>
+
+1464830201 c:\users\rafal\desktop\projekt_v1\include\okno.h
+	<string>
+
+1464739212 source:c:\users\rafal\desktop\projektv1_c++\main.cpp
+	"baza_danych.h"
+
+1464728238 c:\users\rafal\desktop\projektv1_c++\include\baza_danych.h
+	<iostream>
+	<vector>
+	<zalacznik.h>
+
+1464729421 c:\users\rafal\desktop\projektv1_c++\include\zalacznik.h
+	"instrument.h"
+	"blaszane.h"
+	"dete.h"
+	"drewniane.h"
+	"klawiszowe.h"
+	"membranowe.h"
+	"perkusyjny.h"
+	"samobrzmiace.h"
+	"smyczkowy.h"
+	"strunowy.h"
+	"szarpane.h"
+	"uderzane.h"
+	"baza_danych.h"
+	"okno.h"
+
+1464706140 c:\users\rafal\desktop\projektv1_c++\include\instrument.h
+	<string>
+
+1464741708 c:\users\rafal\desktop\projektv1_c++\include\blaszane.h
+	"dete.h"
+
+1464740126 c:\users\rafal\desktop\projektv1_c++\include\dete.h
+	"instrument.h"
+
+1464741610 c:\users\rafal\desktop\projektv1_c++\include\drewniane.h
+	"dete.h"
+	<string>
+
+1464741816 c:\users\rafal\desktop\projektv1_c++\include\klawiszowe.h
+	"dete.h"
+
+1464741970 c:\users\rafal\desktop\projektv1_c++\include\membranowe.h
+	"perkusyjny.h"
+	<string>
+
+1464740193 c:\users\rafal\desktop\projektv1_c++\include\perkusyjny.h
+	"instrument.h"
+
+1464741885 c:\users\rafal\desktop\projektv1_c++\include\samobrzmiace.h
+	"perkusyjny.h"
+	<string>
+
+1464709205 c:\users\rafal\desktop\projektv1_c++\include\smyczkowy.h
+	"strunowy.h"
+	<string>
+
+1464739929 c:\users\rafal\desktop\projektv1_c++\include\strunowy.h
+	"instrument.h"
+
+1464741440 c:\users\rafal\desktop\projektv1_c++\include\szarpane.h
+	"strunowy.h"
+	<string>
+
+1464741532 c:\users\rafal\desktop\projektv1_c++\include\uderzane.h
+	"strunowy.h"
+	<string>
+
+1464830201 c:\users\rafal\desktop\projektv1_c++\include\okno.h
+	<string>
+
+1464802083 source:c:\users\rafal\desktop\projektv1_c++\src\blaszane.cpp
+	"blaszane.h"
+	<iostream>
+	<fstream>
+
+1464740081 source:c:\users\rafal\desktop\projektv1_c++\src\dete.cpp
+	"dete.h"
+
+1464774567 source:c:\users\rafal\desktop\projektv1_c++\src\drewniane.cpp
+	"drewniane.h"
+	<iostream>
+	<fstream>
+
+1464705666 source:c:\users\rafal\desktop\projektv1_c++\src\instrument.cpp
+	"instrument.h"
+
+1464774572 source:c:\users\rafal\desktop\projektv1_c++\src\klawiszowe.cpp
+	"klawiszowe.h"
+	<iostream>
+	<fstream>
+
+1464774577 source:c:\users\rafal\desktop\projektv1_c++\src\membranowe.cpp
+	"membranowe.h"
+	<iostream>
+	<fstream>
+
+1464830293 source:c:\users\rafal\desktop\projektv1_c++\src\okno.cpp
+	"okno.h"
+	<iostream>
+
+1464740166 source:c:\users\rafal\desktop\projektv1_c++\src\perkusyjny.cpp
+	"perkusyjny.h"
+
+1464774581 source:c:\users\rafal\desktop\projektv1_c++\src\samobrzmiace.cpp
+	"samobrzmiace.h"
+	<iostream>
+	<fstream>
+
+1464774586 source:c:\users\rafal\desktop\projektv1_c++\src\smyczkowy.cpp
+	"smyczkowy.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1464739966 source:c:\users\rafal\desktop\projektv1_c++\src\strunowy.cpp
+	"strunowy.h"
+
+1464774589 source:c:\users\rafal\desktop\projektv1_c++\src\szarpane.cpp
+	"szarpane.h"
+	<iostream>
+	<fstream>
+
+1464774593 source:c:\users\rafal\desktop\projektv1_c++\src\uderzane.cpp
+	"uderzane.h"
+	<iostream>
+	<fstream>
+
