@@ -6,13 +6,36 @@
 #include <sstream>
 
 using namespace std;
-
 Baza_danych::Baza_danych(){}
 Baza_danych::~Baza_danych(){
 tabD.clear();
 tabP.clear();
 tabS.clear();
 }
+
+void Baza_danych::zapisz(){
+ifstream plik ("data.txt");
+plik.close();
+remove ("data.txt");
+/************STRUNOWE***********/
+for (unsigned int i=0; i < tabS.size(); i++){
+    Strunowy *tmp = new Strunowy;
+    tmp = tabS[i];
+    tmp->zapisz();
+}
+/************DETE***************/
+for (unsigned int i=0; i < tabD.size(); i++){
+    Dete *tmp = new Dete;
+    tmp = tabD[i];
+    tmp->zapisz();
+}
+/************PERKUSYJNE*********/
+for (unsigned int i=0; i< tabP.size(); i++){
+    Perkusyjny *tmp = new Perkusyjny;
+    tmp = tabP[i];
+    tmp->zapisz();
+}
+}/*********ZAPISZ***************/
 
 void Baza_danych::odczyt(){
 Okno *ekran=new Okno;
@@ -108,33 +131,12 @@ if ( plik.is_open() ){
         } //**MEMBRANOWY**
 
     }// While
-
 }
-else { ekran->ramka(1, "Brak pliku z danymi !"); }
+else ekran->ramka(1, "Brak pliku z danymi !");
 plik.close();
 remove( "data.txt" );
+zapisz();
 }//***********ODCZYT**************************/
-
-void Baza_danych::zapisz(){
-/************STRUNOWE***********/
-for (unsigned int i=0; i < tabS.size(); i++){
-    Strunowy *tmp = new Strunowy;
-    tmp = tabS[i];
-    tmp->zapisz();
-}
-/************DETE***************/
-for (unsigned int i=0; i < tabD.size(); i++){
-    Dete *tmp = new Dete;
-    tmp = tabD[i];
-    tmp->zapisz();
-}
-/************PERKUSYJNE*********/
-for (unsigned int i=0; i< tabP.size(); i++){
-    Perkusyjny *tmp = new Perkusyjny;
-    tmp = tabP[i];
-    tmp->zapisz();
-}
-}/*********ZAPISZ***************/
 
 void Baza_danych::dodaj_instrument(){
     short int odp=0; string wczyt = "";
