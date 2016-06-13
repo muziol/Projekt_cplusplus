@@ -35,7 +35,6 @@ void Smyczkowy::get_param(){
     cout<<s<<"# -Material: "<<_material<<endl;
     cout<<s<<"# -Ilosc strun: "<<_il_strun<<endl;
     cout<<s<<"# -Typ smyczka: "<<_typ_smyczka<<endl;
-
   }
 
 void Smyczkowy::zapisz(){

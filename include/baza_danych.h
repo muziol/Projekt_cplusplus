@@ -11,6 +11,14 @@ class Baza_danych
     public:
         Baza_danych();
         virtual ~Baza_danych();
+        void start();
+
+    protected:
+
+    private:
+        vector <Strunowy*> tabS;
+        vector <Dete*> tabD;
+        vector <Perkusyjny*> tabP;
         void dodaj_instrument();
         void dodaj_strunowy();
         void dodaj_dety();
@@ -21,14 +29,6 @@ class Baza_danych
         void usun();
         void interfejs();
         void powitaj();
-        void start();
-
-    protected:
-
-    private:
-        vector <Strunowy*> tabS;
-        vector <Dete*> tabD;
-        vector <Perkusyjny*> tabP;
 };
 
 #endif // BAZA_DANYCH_H

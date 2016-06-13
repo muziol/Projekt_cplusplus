@@ -204,7 +204,7 @@ else if (odp == 3){ dodaj_strunowy(); } // *3*
     if (il_szt<=0) ekran->tekst("Niepoprawna ilosc sztuk, popraw!");}
 /******************************************************************************/
     ekran->ramka(-1, "Podaj material instrumentu:");
-    ekran->ramka(3, "np. Drewno, Plastik, Metal");
+    ekran->ramka(3, "np. Drewno, Plastik, Metal.");
     getline(cin, mat);
 /*******************************************************************************/
     ekran->ramka(-1, "Podaj nazwe instrumentu:");
@@ -413,7 +413,7 @@ else if (odp == 3){ typ_wib = "Wibrator krawedziowy"; } // *3*
 else if (odp == 4){ dodaj_dety(); }                     // *4*
 /************************************************************************/
 while (il_otw<=0){
-    ekran->ramka(4, "1. Podaj ilosc otworow:");
+    ekran->ramka(4, "Podaj ilosc otworow:");
     getline(cin, wczyt);
     il_otw = atoi(wczyt.c_str());
     if (il_otw<=0) ekran->tekst("Niepoprawna liczba otworow, popraw!");
@@ -788,7 +788,7 @@ while (odp<1 || odp>2){
     odp = atoi(wczyt.c_str());
     if (odp<1 || odp>2) ekran->tekst("Niepoprawna odpowiedz, popraw!");
 }
-if (odp == 1){pal = "Tak";}       // *3*
+if (odp == 1){pal = "Tak";}       // *1*
 else if (odp == 2){pal = "Nie";}  // *2*
 /*********************************************************************************/
     odp = 0;
